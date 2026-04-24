@@ -1,6 +1,9 @@
+import Login from "./Pages/login"
+
 function App() {
   return (
     <>
+    <Login/>
     </>
   )
 }
