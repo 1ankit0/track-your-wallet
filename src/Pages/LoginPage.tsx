@@ -1,6 +1,11 @@
 import React from 'react'
 
 export default function LoginPage() {
+
+  const handleSignIn = ()=>{
+    
+  }
+  
   return (
     <div className="min-h-screen flex items-center justify-center bg-blue-500 px-6">
       <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-8">
@@ -34,7 +39,10 @@ export default function LoginPage() {
         </div>
 
         {/* Button */}
-        <button className="w-full bg-black text-white py-2.5 rounded-lg font-medium hover:bg-gray-900 transition">
+        <button 
+        className="w-full bg-black text-white py-2.5 rounded-lg font-medium hover:bg-gray-900 transition"
+        onClick={handleSignIn}
+        >
           Sign in
         </button>
 
