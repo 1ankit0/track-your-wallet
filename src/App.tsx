@@ -4,12 +4,11 @@ import Login from "./Pages/LoginPage"
 import Categoties from "./Pages/Categoties"
 import Expenses from "./Pages/Expenses"
 import RecurringExpenses from "./Pages/RecurringExpenses"
-import Navbar from "./Pages/Navbar"
+import Navbar from "./Pages/Sidebar"
 
 function App() {
   return (
     <>
-    <Navbar/>
       <Routes>
         <Route path="/" element={<Login/>}></Route>
         <Route path="/dashboard" element={<Dashboard/>}></Route>

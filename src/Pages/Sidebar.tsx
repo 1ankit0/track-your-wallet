@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-function Navbar() {
+function Sidebar() {
     return (
         <div className='flex-1 h-screen'>
             <div className='flex flex-col justify-start h-full bg-blue-500'>
@@ -28,4 +28,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default Sidebar
