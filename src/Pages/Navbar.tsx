@@ -16,7 +16,7 @@ function Navbar() {
                         <Link to="/expenses">Expenses</Link>
                     </div>
                     <div className="">
-                       <Link to="/dashboard">Categories</Link>
+                       <Link to="/categories">Categories</Link>
                     </div>
                     <div className="">
                        <Link to="/recurring">Recurring Expenses</Link>
