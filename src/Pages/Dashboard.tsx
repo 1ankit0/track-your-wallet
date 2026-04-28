@@ -4,8 +4,8 @@ import Navbar from './Sidebar'
 function Dashboard() {
   return (
     <>
-    <Sidebar/>
-    <div>Dashboard</div>
+      {/* <Sidebar /> */}
+      <div>Dashboard</div>
     </>
   )
 }
