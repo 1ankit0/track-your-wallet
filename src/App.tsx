@@ -4,7 +4,7 @@ import Login from "./Pages/LoginPage"
 import Categoties from "./Pages/Categoties"
 import Expenses from "./Pages/Expenses"
 import RecurringExpenses from "./Pages/RecurringExpenses"
-import Navbar from "./Pages/Sidebar"
+import Navbar from "./Pages/Components/Sidebar"
 
 function App() {
   return (
